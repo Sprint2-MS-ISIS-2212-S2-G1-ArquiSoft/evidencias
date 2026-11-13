@@ -1,0 +1,10 @@
+corrida,fase,total,exitosas,fallidas,disponibilidad_%,p95_ms,p99_ms,max_ms,%_>250ms,OPEN_DATA,CACHE,DEFECTO,ERROR
+tacticas-caido,normal,2500,2500,0,100.0,211.3,264.4,565.4,2.44,2500,0,0,0
+tacticas-caido,falla,2500,2500,0,100.0,117.9,140.4,530.4,0.12,1,2484,15,0
+tacticas-caido,recuperacion,2501,2501,0,100.0,203.3,262.6,284.0,1.72,2449,52,0,0
+tacticas-lento,normal,2500,2500,0,100.0,205.1,262.5,518.8,1.72,2500,0,0,0
+tacticas-lento,falla,2500,2500,0,100.0,119.8,401.7,423.0,2.12,1,2499,0,0
+tacticas-lento,recuperacion,2501,2501,0,100.0,208.2,261.7,1418.0,2.0,2429,72,0,0
+sin-tacticas-caido,normal,2500,2500,0,100.0,205.0,267.4,539.3,2.16,2500,0,0,0
+sin-tacticas-caido,falla,2500,1,2499,0.04,116.8,136.4,856.4,0.2,1,0,0,2499
+sin-tacticas-caido,recuperacion,2501,2500,1,99.96,202.8,261.8,279.3,1.96,2500,0,0,1

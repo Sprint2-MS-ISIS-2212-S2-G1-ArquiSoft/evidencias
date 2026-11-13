@@ -1,0 +1,23 @@
+ubuntu@ip-172-31-24-93:~/ms-cotizacion$ sudo docker logs cotizacion 2>&1 | grep '"evento":"breaker"'
+[Nest] 1  - 11/13/2026, 4:31:13 PM    WARN [ResilienciaOpenData] {"evento":"breaker","estado":"OPEN","replica":"06b26aef31c5","ts":"2026-11-13T16:31:13.912Z"}
+[Nest] 1  - 11/13/2026, 4:31:43 PM    WARN [ResilienciaOpenData] {"evento":"breaker","estado":"HALF_OPEN","replica":"06b26aef31c5","ts":"2026-11-13T16:31:43.912Z"}
+[Nest] 1  - 11/13/2026, 4:31:44 PM    WARN [ResilienciaOpenData] {"evento":"breaker","estado":"OPEN","replica":"06b26aef31c5","ts":"2026-11-13T16:31:44.025Z"}
+[Nest] 1  - 11/13/2026, 4:32:14 PM    WARN [ResilienciaOpenData] {"evento":"breaker","estado":"HALF_OPEN","replica":"06b26aef31c5","ts":"2026-11-13T16:32:14.025Z"}
+[Nest] 1  - 11/13/2026, 4:32:14 PM    WARN [ResilienciaOpenData] {"evento":"breaker","estado":"OPEN","replica":"06b26aef31c5","ts":"2026-11-13T16:32:14.148Z"}
+[Nest] 1  - 11/13/2026, 4:32:44 PM    WARN [ResilienciaOpenData] {"evento":"breaker","estado":"HALF_OPEN","replica":"06b26aef31c5","ts":"2026-11-13T16:32:44.148Z"}
+[Nest] 1  - 11/13/2026, 4:32:44 PM    WARN [ResilienciaOpenData] {"evento":"breaker","estado":"OPEN","replica":"06b26aef31c5","ts":"2026-11-13T16:32:44.260Z"}
+[Nest] 1  - 11/13/2026, 4:33:14 PM    WARN [ResilienciaOpenData] {"evento":"breaker","estado":"HALF_OPEN","replica":"06b26aef31c5","ts":"2026-11-13T16:33:14.260Z"}
+[Nest] 1  - 11/13/2026, 4:33:14 PM    WARN [ResilienciaOpenData] {"evento":"breaker","estado":"OPEN","replica":"06b26aef31c5","ts":"2026-11-13T16:33:14.391Z"}
+[Nest] 1  - 11/13/2026, 4:33:44 PM    WARN [ResilienciaOpenData] {"evento":"breaker","estado":"HALF_OPEN","replica":"06b26aef31c5","ts":"2026-11-13T16:33:44.391Z"}
+[Nest] 1  - 11/13/2026, 4:33:44 PM    WARN [ResilienciaOpenData] {"evento":"breaker","estado":"OPEN","replica":"06b26aef31c5","ts":"2026-11-13T16:33:44.495Z"}
+[Nest] 1  - 11/13/2026, 4:34:14 PM    WARN [ResilienciaOpenData] {"evento":"breaker","estado":"HALF_OPEN","replica":"06b26aef31c5","ts":"2026-11-13T16:34:14.495Z"}
+[Nest] 1  - 11/13/2026, 4:34:14 PM    WARN [ResilienciaOpenData] {"evento":"breaker","estado":"OPEN","replica":"06b26aef31c5","ts":"2026-11-13T16:34:14.622Z"}
+[Nest] 1  - 11/13/2026, 4:34:44 PM    WARN [ResilienciaOpenData] {"evento":"breaker","estado":"HALF_OPEN","replica":"06b26aef31c5","ts":"2026-11-13T16:34:44.622Z"}
+[Nest] 1  - 11/13/2026, 4:34:44 PM    WARN [ResilienciaOpenData] {"evento":"breaker","estado":"OPEN","replica":"06b26aef31c5","ts":"2026-11-13T16:34:44.735Z"}
+[Nest] 1  - 11/13/2026, 4:35:14 PM    WARN [ResilienciaOpenData] {"evento":"breaker","estado":"HALF_OPEN","replica":"06b26aef31c5","ts":"2026-11-13T16:35:14.736Z"}
+[Nest] 1  - 11/13/2026, 4:35:14 PM    WARN [ResilienciaOpenData] {"evento":"breaker","estado":"OPEN","replica":"06b26aef31c5","ts":"2026-11-13T16:35:14.846Z"}
+[Nest] 1  - 11/13/2026, 4:35:44 PM    WARN [ResilienciaOpenData] {"evento":"breaker","estado":"HALF_OPEN","replica":"06b26aef31c5","ts":"2026-11-13T16:35:44.846Z"}
+[Nest] 1  - 11/13/2026, 4:35:44 PM    WARN [ResilienciaOpenData] {"evento":"breaker","estado":"OPEN","replica":"06b26aef31c5","ts":"2026-11-13T16:35:44.962Z"}
+[Nest] 1  - 11/13/2026, 4:36:14 PM    WARN [ResilienciaOpenData] {"evento":"breaker","estado":"HALF_OPEN","replica":"06b26aef31c5","ts":"2026-11-13T16:36:14.962Z"}
+[Nest] 1  - 11/13/2026, 4:36:15 PM    WARN [ResilienciaOpenData] {"evento":"breaker","estado":"CLOSED","replica":"06b26aef31c5","ts":"2026-11-13T16:36:15.114Z"}
+ubuntu@ip-172-31-24-93:~/ms-cotizacion$

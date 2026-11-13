@@ -1,0 +1,24 @@
+{
+  "corrida": "tacticas-lento",
+  "modoFalla": "lento",
+  "faseSegundos": 300,
+  "tasaPorMin": 500,
+  "fases": {
+    "normal": {
+      "exito": 1,
+      "p95_ms": 205.101225,
+      "p99_ms": 262.488634
+    },
+    "falla": {
+      "exito": 1,
+      "p95_ms": 119.807335,
+      "p99_ms": 401.739699
+    },
+    "recuperacion": {
+      "exito": 1,
+      "p95_ms": 208.2211,
+      "p99_ms": 261.6848
+    }
+  },
+  "hipotesisCumplida": true
+}

@@ -1,0 +1,24 @@
+{
+  "corrida": "sin-tacticas-caido",
+  "modoFalla": "caido",
+  "faseSegundos": 300,
+  "tasaPorMin": 500,
+  "fases": {
+    "normal": {
+      "exito": 1,
+      "p95_ms": 205.01162999999994,
+      "p99_ms": 267.440651
+    },
+    "falla": {
+      "exito": 0.0004,
+      "p95_ms": 116.825515,
+      "p99_ms": 136.4392019999998
+    },
+    "recuperacion": {
+      "exito": 0.9996001599360256,
+      "p95_ms": 202.8319,
+      "p99_ms": 261.7676
+    }
+  },
+  "hipotesisCumplida": false
+}
