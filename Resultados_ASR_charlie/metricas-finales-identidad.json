@@ -1,0 +1,66 @@
+{
+  "instanciaActual": {
+    "workerId": "worker-c6598640873a",
+    "mode": "api",
+    "primaryPoolSize": 20,
+    "replicaPoolSize": 2
+  },
+  "tacticaPool70Porciento": {
+    "rdsMaxConnections": 85,
+    "limiteMaxWorkers70Pct": 59,
+    "reservaMinApiOnline30Pct": 26,
+    "maxWorkerReplicas": 4,
+    "conexionesActivasEnPostgres": 5,
+    "cumpleRegla70Pct": true
+  },
+  "colaSqs": {
+    "configurada": true,
+    "mensajesEnEspera": 0,
+    "mensajesEnVuelo": 0
+  },
+  "reprocesamientoBatch": {
+    "workersActivos": 4,
+    "workersRegistrados": 4,
+    "totalPerfilesReprocesados": 100000,
+    "totalLotesProcesados": 215,
+    "metaThroughputPerfilesSeg": 1400,
+    "detalleWorkers": [
+      {
+        "worker_id": "worker-064f404db1bd",
+        "perfiles_procesados": 23850,
+        "lotes_procesados": 52,
+        "latencia_replica_ms": 5.47,
+        "latencia_primary_ms": 147.01,
+        "pool_replica_size": 14,
+        "pool_primary_size": 5
+      },
+      {
+        "worker_id": "worker-727859cb5f8e",
+        "perfiles_procesados": 25200,
+        "lotes_procesados": 55,
+        "latencia_replica_ms": 1.77,
+        "latencia_primary_ms": 232.76,
+        "pool_replica_size": 14,
+        "pool_primary_size": 5
+      },
+      {
+        "worker_id": "worker-897e97fc4a4e",
+        "perfiles_procesados": 24550,
+        "lotes_procesados": 52,
+        "latencia_replica_ms": 3.35,
+        "latencia_primary_ms": 222.25,
+        "pool_replica_size": 14,
+        "pool_primary_size": 5
+      },
+      {
+        "worker_id": "worker-9d4d073dac7d",
+        "perfiles_procesados": 26400,
+        "lotes_procesados": 56,
+        "latencia_replica_ms": 3.74,
+        "latencia_primary_ms": 149.87,
+        "pool_replica_size": 14,
+        "pool_primary_size": 5
+      }
+    ]
+  }
+}

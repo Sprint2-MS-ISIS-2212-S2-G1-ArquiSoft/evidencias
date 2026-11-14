@@ -1,0 +1,4 @@
+Fase,Peticiones Online,Exitosas (%),p50 (ms),p95 (ms) [SLA <= 250],p99 (ms) [SLA <= 500],Perfiles Batch,Throughput Batch Prom (perf/s),Throughput Batch Pico (perf/s),Proyeccion 10M (h) [SLA < 2h]
+1. Reposo (0-60s),3000,100.0%,6.97,10.77,16.23,0,0.0,0.0,-
+2. Pico Batch SQS (60-120s),3000,100.0%,6.35,11.96,532.97,100000,1666.14,43654.36,1.67 h
+3. Post-Batch (120-180s),3000,100.0%,6.12,9.53,17.6,100000,0.0,0.0,-

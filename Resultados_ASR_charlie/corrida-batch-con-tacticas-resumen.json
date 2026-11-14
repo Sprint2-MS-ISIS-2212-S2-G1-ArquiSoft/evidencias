@@ -1,0 +1,32 @@
+{
+  "corrida": "corrida-batch-con-tacticas",
+  "faseSegundos": 60,
+  "rpsOnline": 50,
+  "totalPerfilesBatch": 100000,
+  "throughputBatchPicoPerfilesSeg": 43654.36,
+  "throughputBatchPromedioPerfilesSeg": 1666.14,
+  "proyeccion10MillonesHoras": 1.67,
+  "fasesOnline": {
+    "reposo": {
+      "exito_rate": 1.0,
+      "p50_ms": 6.97,
+      "p95_ms": 10.77,
+      "p99_ms": 16.23,
+      "max_ms": 124.03
+    },
+    "batch": {
+      "exito_rate": 1.0,
+      "p50_ms": 6.35,
+      "p95_ms": 11.96,
+      "p99_ms": 532.97,
+      "max_ms": 1083.68
+    },
+    "post_batch": {
+      "exito_rate": 1.0,
+      "p50_ms": 6.12,
+      "p95_ms": 9.53,
+      "p99_ms": 17.6,
+      "max_ms": 213.82
+    }
+  }
+}
